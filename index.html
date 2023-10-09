@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.31/dist/sweetalert2.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body style="background-color: aquamarine">
+    <h1 style="text-align: center">PIEDRA, PAPER O TIJERAS</h1>
+    <h2 style="text-align: center">SELECCIONA UNO:</h2>
+    <h3>Score: <span id="score">0</span></h3>
+
+    <div class="container" style="text-align: center">
+      <a href="#" class="piedra"
+        ><img src="img/piedra.png"
+      /></a>
+      <a href="#" class="papel"
+        ><img src="img/papel.jpeg"
+      /></a>
+      <a href="#" class="tijera"
+        ><img src="img/tijeras.png"
+      /></a>
+      <br />
+      <br />
+    </div>
+
+    <footer
+      style="
+        border: 5px dotted black;
+        padding: 10px;
+        margin-left: 30%;
+        margin-right: 30%;
+        text-align: center;
+      "
+    >
+      <h3>NORMAS: <br /></h3>
+      <p>1- Piedra gana a tijeras</p>
+      <p>2- Papel gana a piedra</p>
+      <p>3- Tijeras gana a papel</p>
+    </footer>
+    <script src="code.jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.31/dist/sweetalert2.all.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
